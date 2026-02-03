@@ -22,6 +22,7 @@ Send these strings (followed by a newline `\n`) to control cTrader:
 **
 Here is how to receive ticks and send a simple order (Python):
 
+'''
 import socket
 import json
 
@@ -55,4 +56,4 @@ while True:
                 
         except json.JSONDecodeError:
             pass
-
+'''
